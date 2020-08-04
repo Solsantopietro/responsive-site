@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+
+body{
+    background-color: lightskyblue;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    align-items: center;
+}
+
+@media(min-width: 600px) and (max-width: 900px){
+    h1{
+        font-size: 24px;
+    }
+    body{
+        background-color: lightseagreen;
+    }
+}
+
+@media(max-width: 600px){
+    h1{
+        font-size: 24px;
+    }
+    body{
+        background-color: lightpink;
+    }
+}
